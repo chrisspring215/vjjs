@@ -1,0 +1,214 @@
+/* RESETS */
+
+h1, h2, h3, h4, h5, h6, p, caption, th, td, input, textarea, select, option, legend, fieldset
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul, ol, dl
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* SETUP */
+
+$baseFontSize: 1em;
+
+
+/* PHONES */
+@media only screen{ 
+
+	body
+	{
+		font-size: $baseFontSize;
+	}
+
+	h1
+	{
+		font-size:   $baseFontSize * 2;
+		line-height: $baseFontSize * 1.25;
+	}
+
+	h2
+	{
+		font-size: $baseFontSize * 1.625;
+		line-height: $baseFontSize * 1.15384615;
+	}
+
+	h3
+	{
+		font-size: $baseFontSize * 1.375;
+		line-height: $baseFontSize * 1.13636364;
+		margin-top: $baseFontSize * 1.13636364;
+	}
+
+	h4
+	{
+		font-size: $baseFontSize * 1.125;
+		line-height: $baseFontSize * 1.11111111;
+		margin-bottom: $baseFontSize * .555555555;
+	}
+
+	p, ul, ol, dl, caption, th, td, input, textarea, select, option, legend, fieldset
+	{
+		font-size: $baseFontSize * 1;
+		line-height: $baseFontSize * 1.25;
+		margin-bottom: $baseFontSize * 1.25;
+	}
+
+	li
+	{
+		font-size: $baseFontSize * 1;
+		line-height: $baseFontSize * 1.25;
+	}
+
+
+	blockquote
+	{
+		font-size: $baseFontSize * 1.25;
+		line-height: $baseFontSize * 1.25;
+	}
+}
+
+/* TABLETS */
+@media only screen and (min-width: 40.063em) {
+
+	body
+	{
+		font-size: $baseFontSize;
+	}
+
+	h1
+	{
+		font-size:   $baseFontSize * 2.5;
+		line-height: $baseFontSize * 1.125;
+	}
+
+	h2
+	{
+		font-size: $baseFontSize * 2;
+		line-height: $baseFontSize * 1.25;
+	}
+
+	h3
+	{
+		font-size: $baseFontSize * 1.5;
+		line-height: $baseFontSize * 1.25;
+	}
+
+	h4
+	{
+		font-size: $baseFontSize * 1.125;
+		line-height: $baseFontSize * 1.22222222;
+	}
+
+	p, ul, ol, dl, li
+	{
+		font-size: $baseFontSize * 1;
+		line-height: $baseFontSize * 1.25;
+	}
+
+
+	blockquote
+	{
+		font-size: $baseFontSize * 1.25;
+		line-height: $baseFontSize * 1.25;
+	}
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 64.063em) {
+
+	body
+	{
+		font-size: $baseFontSize;
+	}
+
+	h1
+	{
+		font-size:   $baseFontSize * 8;
+		line-height: $baseFontSize * 1.05
+	}
+
+	h2
+	{
+		font-size: $baseFontSize * 2.25;
+		line-height: $baseFontSize * 1.25;
+	}
+
+	h3
+	{
+		font-size: $baseFontSize * 1.75;
+		line-height: $baseFontSize * 1.25;
+	}
+
+	h4
+	{
+		font-size: $baseFontSize * 1.125;
+		line-height: $baseFontSize * 1.22222222;
+	}
+
+	p, ul, ol, dl, li
+	{
+		font-size: $baseFontSize * 1;
+		line-height: $baseFontSize * 1.375;
+	}
+
+
+	blockquote
+	{
+		font-size: $baseFontSize * 1.5;
+		line-height: $baseFontSize * 1.45833333;
+	}
+}
+
+/* DESKTOP LARGE */
+@media only screen and (min-width: 64.063em) {
+
+	body
+	{
+		font-size: $baseFontSize;
+	}
+
+	h1
+	{
+		font-size:   $baseFontSize * 3;
+		line-height: $baseFontSize * 1.05
+	}
+
+	h2
+	{
+		font-size: $baseFontSize * 2.25;
+		line-height: $baseFontSize * 1.25;
+	}
+
+	h3
+	{
+		font-size: $baseFontSize * 1.75;
+		line-height: $baseFontSize * 1.25;
+	}
+
+	h4
+	{
+		font-size: $baseFontSize * 1.125;
+		line-height: $baseFontSize * 1.22222222;
+	}
+
+	p, ul, ol, dl, li
+	{
+		font-size: $baseFontSize * 1;
+		line-height: $baseFontSize * 1.375;
+	}
+
+
+	blockquote
+	{
+		font-size: $baseFontSize * 1.5;
+		line-height: $baseFontSize * 1.45833333;
+	}
+}
